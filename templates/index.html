@@ -1,0 +1,14 @@
+<h1>variable</h1>
+hello {{ name }}<br>
+<h1>for roop</h1>
+{% for i in range(0, 3) %}
+{{ name }}<br>
+{% endfor %}
+<h1>urlFor</h1>
+<a href="{{ urlFor('ok_url', {"name": "Josh", "age": "19"}) }}">ok</a>
+<h1>siteUrl</h1>
+{{ siteUrl('/ok') }}
+<h1>baseUrl</h1>
+{{ baseUrl() }}
+<h1>currentUrl</h1>
+{{ currentUrl() }}
